@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/multi-language-app/static/css/main.c669a431.css",
+    "main.js": "/multi-language-app/static/js/main.4f891201.js",
+    "index.html": "/multi-language-app/index.html",
+    "static/media/getFetch.cjs": "/multi-language-app/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.c669a431.css.map": "/multi-language-app/static/css/main.c669a431.css.map",
+    "main.4f891201.js.map": "/multi-language-app/static/js/main.4f891201.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c669a431.css",
+    "static/js/main.4f891201.js"
+  ]
+}
