@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-weight: bold;
+  font-family: "Roboto", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0f0f0f;
+  color: #f1f1f1;
+}
+
+.MLAppDivCSN {
+  display: flex;
+  justify-content: flex-end;
+  height: 0;
+}
+
+.MLAppDDMenuDivCS {
+  position: relative;
+  top: 30px;
+  right: 40px;
+}
+
+.MLAppDDMenuBNCS {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  padding: 8px 0;
+  right: 0px;
+}
+
+.MLAppDDMenuBNCS svg {
+  vertical-align: middle;
+}
+
+.MLAppDDMenuBNCS:hover {
+  opacity: 0.7;
+}
+
+.MLAppDDMenuBNCS::after {
+  display: inline-block;
+  content: "";
+  color: #3ea6ff;
+  margin-left: 10px;
+  border-bottom: 0;
+  border-top: 8px solid;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+.MLAppULCS {
+  visibility: hidden;
+  list-style: none;
+  width: 150px;
+  margin: 18px 0;
+  padding: 12px 0;
+  border-radius: 12px;
+  background-color: #282828;
+}
+
+.MLAppULCS.Show {
+  visibility: visible;
+}
+
+.MLAppULCS button {
+  background-color: transparent;
+  text-align: start;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  padding: 4px 18px;
+}
+
+.MLAppULCS button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.MLAppULCS button:disabled {
+  background-color: transparent;
+  cursor: default;
+}
+
+.MLAppPDivCS {
+  position: absolute;
+  display: flex;
+  top: 20px;
+  left: 40px;
+}
+
+@media (max-width: 222px) {
+  .MLAppULCS {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .MLAppDDMenuDivCS {
+    top: 150px;
+  }
+}
